@@ -132,7 +132,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\Luca\\source\\repos\\personal\\react\\nextjs\\course\\second-kiosco-app\\kiosco_app\\app\\generated\\prisma",
+      "value": "C:\\Users\\Luca Daniel Cañas\\source\\repos\\Frontend\\NextJS\\KioscoApp\\app\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -146,11 +146,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\Luca\\source\\repos\\personal\\react\\nextjs\\course\\second-kiosco-app\\kiosco_app\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\Luca Daniel Cañas\\source\\repos\\Frontend\\NextJS\\KioscoApp\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../../../prisma",

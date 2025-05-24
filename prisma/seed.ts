@@ -1,6 +1,6 @@
 import { PrismaClient } from "../app/generated/prisma";
-import { categories } from "./migrations/data/categories";
-import { products } from "./migrations/data/products";
+import { categories } from "./data/categories";
+import { products } from "./data/products";
 
 const prisma = new PrismaClient();
 

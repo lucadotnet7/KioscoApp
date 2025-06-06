@@ -1,5 +1,6 @@
 import OrderSidebar from "@/components/order/OrderSidebar";
 import OrderSummary from "@/components/order/OrderSummary";
+import ToastNotification from "@/components/ui/ToastNotification";
 import React from "react";
 
 export default async function RootLayout({
@@ -16,6 +17,8 @@ export default async function RootLayout({
 
         <OrderSummary />
       </div>
+
+      <ToastNotification />
     </>
   );
 }

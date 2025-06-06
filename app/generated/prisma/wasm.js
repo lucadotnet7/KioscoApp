@@ -134,6 +134,22 @@ exports.Prisma.ProductScalarFieldEnum = {
   categoryId: 'categoryId'
 };
 
+exports.Prisma.OrderScalarFieldEnum = {
+  id: 'id',
+  user: 'user',
+  total: 'total',
+  date: 'date',
+  status: 'status',
+  orderReadyAt: 'orderReadyAt'
+};
+
+exports.Prisma.OrderProductsScalarFieldEnum = {
+  id: 'id',
+  productId: 'productId',
+  orderId: 'orderId',
+  quantity: 'quantity'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -144,10 +160,17 @@ exports.Prisma.QueryMode = {
   insensitive: 'insensitive'
 };
 
+exports.Prisma.NullsOrder = {
+  first: 'first',
+  last: 'last'
+};
+
 
 exports.Prisma.ModelName = {
   Category: 'Category',
-  Product: 'Product'
+  Product: 'Product',
+  Order: 'Order',
+  OrderProducts: 'OrderProducts'
 };
 
 /**
